@@ -1,0 +1,47 @@
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #fff !important;
+}
+
+:root {
+    --primary-color: #98C378;
+    --secondary-color: #089;
+    --primary-background-color:#282C34;
+    --link-color:#C678DD;
+    --span-color-1:#ABB2BF;
+    --span-color-2:#61AFEF;
+     }
+ 
+.card a{
+    text-decoration: none !important;
+    color: var(--link-color) !important;
+    
+}
+ 
+
+.h5{
+    color: var(--primary-color);
+}
+
+.span-1{
+    color: var(--span-color-1);
+}
+
+.span-2{
+    color: var(--span-color-2);
+}
+
+.span-3{
+     
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.h1{
+    color: #000 !important;
+}
+ 

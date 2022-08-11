@@ -1,0 +1,85 @@
+@import "./utility.css";
+
+.card{
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: var(--primary-background-color) !important; */
+    background-color: transparent !important;
+}
+
+.list-group,.list-group-item{
+    /* background-color: var(--primary-background-color) !important; */
+    background-color: transparent !important;
+}
+
+.h5{
+    padding-left: 12px;
+}
+
+.time{
+    margin-left: 15px;
+}
+
+span{
+    font-size: 14px;
+}
+
+#question{
+ color: var(--link-color);
+  
+}
+
+.quiz-box{
+     padding: 10px ;
+      
+     
+}
+
+
+
+.quiz-heading{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+     
+}
+
+
+.quiz-header{
+    margin-bottom: 20px;
+}
+
+#x{
+    margin: 0px 10px 0px 5px;
+}
+
+.question-option-list{
+     margin: 40px 0px 30px 0px;
+}
+
+.question-option-list li{
+    margin-top: 20px !important;
+    border: 2px solid #ccc !important;
+    outline: none !important;
+     
+}
+
+.quiz-box
+{
+    height: 80vh;
+} 
+
+ 
+
+.result-sub
+{
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     
+}
+
+.result-card{
+    padding: 30px;
+}
